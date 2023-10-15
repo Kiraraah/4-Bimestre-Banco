@@ -23,5 +23,3 @@ BEGIN
             SET total_livros = total_livros + 1;
         END IF;
     END LOOP;
-
-    CLOSE cursor_livros;
